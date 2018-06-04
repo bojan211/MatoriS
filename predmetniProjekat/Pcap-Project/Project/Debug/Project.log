@@ -1,0 +1,41 @@
+﻿  protocol_headers.c
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\protocol_headers.c(54): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\protocol_headers.c(119): warning C4018: '<': signed/unsigned mismatch
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\protocol_headers.c(156): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\protocol_headers.c(221): warning C4018: '<': signed/unsigned mismatch
+  main.c
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(123): warning C4020: 'read_from_file': too many actual parameters
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(174): warning C4013: 'setup_header_ethernet' undefined; assuming extern returning int
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(174): warning C4047: '=': 'unsigned char *' differs in levels of indirection from 'int'
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(210): warning C4047: '=': 'unsigned char *' differs in levels of indirection from 'int'
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(73): warning C4101: 'sentBytes': unreferenced local variable
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(72): warning C4101: 'device_number': unreferenced local variable
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(71): warning C4101: 'ethernet_header_size': unreferenced local variable
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(68): warning C4101: 'i': unreferenced local variable
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(257): warning C4098: 'init_ack_handler': 'void' function returning a value
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(267): warning C4098: 'init_ack_handler': 'void' function returning a value
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(270): warning C4293: '<<': shift count negative or too big, undefined behavior
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(269): warning C4090: 'initializing': different 'const' qualifiers
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(289): warning C4047: '=': 'unsigned char *' differs in levels of indirection from 'int'
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(295): warning C4098: 'sendFirstTwoPackets': 'void' function returning a value
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(302): warning C4047: '=': 'unsigned char *' differs in levels of indirection from 'int'
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(307): warning C4098: 'sendFirstTwoPackets': 'void' function returning a value
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(331): warning C4098: 'ack_handler_ethernet': 'void' function returning a value
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(334): warning C4293: '<<': shift count negative or too big, undefined behavior
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(333): warning C4090: 'initializing': different 'const' qualifiers
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(367): warning C4098: 'ack_handler_wifi': 'void' function returning a value
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(370): warning C4293: '<<': shift count negative or too big, undefined behavior
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(369): warning C4090: 'initializing': different 'const' qualifiers
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(445): warning C4013: 'setup_header_wifi' undefined; assuming extern returning int
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(445): warning C4047: '=': 'unsigned char *' differs in levels of indirection from 'int'
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(488): warning C4047: '=': 'unsigned char *' differs in levels of indirection from 'int'
+  file_manipulation.c
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\file_manipulation.c(4): warning C4029: declared formal parameter list different from definition
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\file_manipulation.c(13): warning C4047: 'return': 'char **' differs in levels of indirection from 'int'
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\file_manipulation.c(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  Generating Code...
+d:\ra82-2015\sender\predmetniprojekat\pcap-project\project\main.c(509): warning C4716: 'wifiThreadFunction': must return a value
+file_manipulation.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  Project.vcxproj -> D:\ra82-2015\sender\predmetniProjekat\Pcap-Project\Project\.\Debug\Project.exe
+  Project.vcxproj -> .\Debug\Project.pdb (Full PDB)
