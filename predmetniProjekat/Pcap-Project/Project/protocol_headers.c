@@ -3,19 +3,19 @@
 
 
 /*protocol info*/
-unsigned char dst_mac_ethernet[] = {0xc8, 0x0a, 0xa9, 0x68, 0xa1, 0x05}; //Marko ethernet
-unsigned char src_mac_ethernet[] = {0x4c, 0x72, 0xb9, 0x11, 0x63, 0xd4};	//Bojan enhernet
-unsigned char dst_mac_wifi[] = {0xf0, 0x7b, 0xcb, 0x7c, 0xb3, 0x2b};	//Marko wifi
-unsigned char src_mac_wifi[] = {0x44, 0x6d, 0x57, 0xea, 0x51, 0xd8};	//Bojan wifi
+unsigned char dst_mac_ethernet[] = {0x2c, 0x4d, 0x54, 0xcf, 0x3a, 0x88}; //Marko ethernet
+unsigned char src_mac_ethernet[] = {0x2c, 0x4d, 0x54, 0x56, 0x9a, 0x6b};	//Bojan enhernet
+unsigned char dst_mac_wifi[] = {0x00, 0x0f, 0x60, 0x08, 0x49, 0xe9};	//Marko wifi
+unsigned char src_mac_wifi[] = {0x00, 0x0f, 0x60, 0x08, 0x28, 0xae};	//Bojan wifi
 
 
 unsigned char next_protocol_header_ipv4[2] = { 0x08, 0x00 };
 unsigned int next_protocol_header_udp = 17;
 
-unsigned char dst_ip_ethernet[] = { 192, 168, 0, 40 };	//Marko ethernet
-unsigned char src_ip_ethernet[] = { 192, 168, 0, 52 };	//Bojan	ethernet
-unsigned char dst_ip_wifi[] = { 192, 168, 2, 30 };	//Marko wifi
-unsigned char src_ip_wifi[] = { 192, 168, 2, 20 };	//Bojan	wifi
+unsigned char dst_ip_ethernet[] = { 10, 81, 31, 54 };	//Marko ethernet
+unsigned char src_ip_ethernet[] = { 10, 81, 31, 59 };	//Bojan	ethernet
+unsigned char dst_ip_wifi[] = { 192, 168, 123, 1 };	//Marko wifi
+unsigned char src_ip_wifi[] = { 192, 168, 123, 16 };	//Bojan	wifi
 
 /*Functions*/
 unsigned short calculate_checksum(unsigned char* header);

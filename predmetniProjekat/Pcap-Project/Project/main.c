@@ -76,7 +76,7 @@ int main()
 	pcap_if_t* wifi_device;
 
 	char error_buffer[PCAP_ERRBUF_SIZE];
-	unsigned char* data_ext = "test.mp3";
+	unsigned char* data_ext = "eva.jpg";
 	unsigned char* number_of_elements;
 
 	pthread_t wifiThread;
@@ -136,12 +136,12 @@ int main()
 	printf("Data extension sent and number of packets sent!\n\n");
 
 	/*Receiving ACK and if necessary sending first two packets again*/
-	while (pcap_loop(eth_handle, 0, init_ack_handler, NULL) != -2)
+	/*while (pcap_loop(eth_handle, 0, init_ack_handler, NULL) != -2)
 	{
 		puts("Sending packets again!\n\n");
 		sendFirstTwoPackets(data_ext, packet_data, number_of_elements, packet_len);
 		Sleep(2);
-	}
+	}*/
 
 	printf("ACK has been received!\n");
 	printf("Sending data...\n");
@@ -455,12 +455,12 @@ void *wifiThreadFunction(void *params)
 		Sleep(2);
 
 		/*Receive ACK for current packet*/
-		while (pcap_loop(wifi_handle, 0, ack_handler_wifi, NULL) != -2)
+		/*while (pcap_loop(wifi_handle, 0, ack_handler_wifi, NULL) != -2)
 		{
 			puts("Sending packets again!\n\n");
 			pcap_sendpacket(wifi_handle, packet_data2, len);
 			Sleep(2);
-		}
+		}*/
 
 		if (i == number_of_packets - 1)
 		{

@@ -45,8 +45,8 @@
     <OutDir>.\Debug\</OutDir>
     <IntDir>.\Debug\</IntDir>
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\student\Desktop\PTHREAD\Pre-built.2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\student\Desktop\PTHREAD\Pre-built.2\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\student\Desktop\pthreads-w32-2-9-1-release\Pre-built.2\include;C:\Users\student\Desktop\PTHREAD\Pre-built.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\student\Desktop\pthreads-w32-2-9-1-release\Pre-built.2\lib;C:\Users\student\Desktop\PTHREAD\Pre-built.2\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\Release\</OutDir>
@@ -87,7 +87,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OutputFile>.\Debug\Project.exe</OutputFile>
-      <AdditionalDependencies>odbc32.lib;odbccp32.lib;wsock32.lib;ws2_32.lib;Iphlpapi.lib;../../Lib/wpcap.lib;C:\Users\student\Desktop\PTHREAD\Pre-built.2\lib\x86\pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;wsock32.lib;ws2_32.lib;Iphlpapi.lib;../../Lib/wpcap.lib;C:\Users\student\Desktop\pthreads-w32-2-9-1-release\Pre-built.2\lib\x86\pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
